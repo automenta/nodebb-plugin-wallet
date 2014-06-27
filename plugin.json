@@ -1,0 +1,18 @@
+{
+    "id": "nodebb-plugin-wallet",
+    "name": "Cryptocoin Wallets",
+    "description": "Send & receive cryptocoin payments, & maintain trust/credit lines among users",
+    "url": "https://github.com/automenta/nodebb-plugin-wallet",
+    "library": "./index.js",
+    "minver": "0.4.0",
+	"hooks": [
+	],    
+	"staticDirs": {
+		"public": "./public"
+	},
+	"scripts" : [
+		"public/main.js"
+	],
+	"css": [
+	]
+}
